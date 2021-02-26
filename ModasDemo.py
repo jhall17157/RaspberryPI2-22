@@ -9,7 +9,7 @@ class Modas:
         self.camera = PiCamera()
         # set camera resolution
         #self.camera.rotation = 180
-        self.camera.resolution = (1024,768)
+        self.camera.resolution = (800,600)
         # init green, red LEDs
         self.green = LED(24)
         self.red = LED(23)
